@@ -177,9 +177,9 @@ class HtmlWebpackPlugin {
         // Execute the template
         .then(compilationResult => {
           // 这里插入com lib 的资源文件
-          if (assets && assets.js) {
+          if (assets && assets.js && self.options.comlib) {
             assets.js.unshift(self.options.comlib);
-          } else {
+          } else if (self.options.comlib) {
             assets.js = [self.options.comlib];
           }
           // 这里插入com lib 的资源文件
