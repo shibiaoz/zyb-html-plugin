@@ -1,6 +1,6 @@
 {
   "name": "zyb-html-plugin",
-  "version": "3.2.0",
+  "version": "3.2.3",
   "license": "MIT",
   "description": "Simplifies creation of HTML files to serve your webpack bundles",
   "author": "Charles Blaxland <charles.blaxland@gmail.com> (https://github.com/ampedandwired)",
